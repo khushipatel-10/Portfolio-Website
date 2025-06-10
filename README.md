@@ -1,6 +1,6 @@
 # 👩‍💻 Khushi Patel – Portfolio Website
 
-This is my personal developer portfolio built with ⚛️ Next.js, 💨 Tailwind CSS, and 🟦 TypeScript.
+This is my personal developer portfolio built with ⚛️ React.js, 💨 Tailwind CSS, and 🟦 TypeScript.
 
 It highlights my experience as a full stack developer, selected projects, technical skills, and contact information.
 
