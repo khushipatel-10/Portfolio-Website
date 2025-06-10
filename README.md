@@ -6,11 +6,10 @@ It highlights my experience as a full stack developer, selected projects, techni
 
 ## 🛠️ Tech Stack
 
-- ⚛️ Next.js & React.js  
+- ⚛️ React.js  
 - 💨 Tailwind CSS  
 - 🟦 TypeScript  
-- 🟩 Node.js & tRPC  
-- 🐬 MariaDB  
+- 🟩 Node.js  
 
 ## ✨ Features
 
