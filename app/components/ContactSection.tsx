@@ -39,8 +39,9 @@ export default function ContactSection() {
 							Get in Touch
 						</a>
 						<a
-							href="/resume.pdf"
-							download 
+							href="https://drive.google.com/file/d/1FoSYGNWqxuwM7kBZhn0e15nrBqvgZVVE/view?usp=sharing"
+							target="_blank"
+							rel="noopener noreferrer"
 							className="px-8 py-3 bg-black border border-gray-800 rounded-lg font-medium hover:bg-gray-900 transition-colors inline-flex items-center justify-center gap-2"
 						>
 							<svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -53,6 +54,7 @@ export default function ContactSection() {
 							</svg>
 							View Resume
 						</a>
+
 					</div>
 
 					{/* Social Links */}
