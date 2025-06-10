@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: #000;
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(0) scale(1);
+		opacity: 0.6;
+	}
+	50% {
+		transform: translateY(-30px) scale(1.2);
+		opacity: 0.3;
+	}
+	100% {
+		transform: translateY(0) scale(1);
+		opacity: 0.6;
+	}
+}
+
+.animate-float {
+	animation-name: float;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes bubbleMotion {
+	0% {
+		transform: translateY(0px);
+	}
+	100% {
+		transform: translateY(-100vh);
+	}
+}
+
+.animate-bubbleMotion {
+	animation: bubbleMotion 0s linear infinite;
+}
