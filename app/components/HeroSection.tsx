@@ -39,13 +39,14 @@ export default function HeroSection() {
 					{/* Contact Button */}
 					<button
 						onClick={() => {
-							const section = document.getElementById("contact");
-							section?.scrollIntoView({ behavior: "smooth" });
+							const el = document.getElementById("contact");
+							el?.scrollIntoView({ behavior: "smooth" });
 						}}
-						className="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-full shadow-lg hover:opacity-90 transition"
+						className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
 					>
 						Contact Me
 					</button>
+
 
 
 				</motion.div>
