@@ -15,7 +15,7 @@ export default function HeroSection() {
 			<div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 pt-8 md:pt-0">
 				<motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-8 md:mb-12">
 					<div className="space-y-3 md:space-y-4 mb-6 md:mb-8">
-						<h1 className="text-4xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-teal-500">
+						<h1 className="mt-24 text-4xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-teal-500">
 							Khushi Patel
 						</h1>
 						<h2 className="text-2xl py-5 md:text-4xl font-bold text-white">Software Developer</h2>
@@ -37,14 +37,16 @@ export default function HeroSection() {
 					</div>
 
 					{/* Contact Button */}
-					<div className="flex justify-center">
-						<a
-							href="#contact"
-							className="px-6 py-3 bg-gradient-to-r from-blue-500 via-purple-500 to-teal-500 text-white font-semibold rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
-						>
-							Contact Me
-						</a>
-					</div>
+					<button
+						onClick={() => {
+							const section = document.getElementById("contact");
+							section?.scrollIntoView({ behavior: "smooth" });
+						}}
+						className="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-full shadow-lg hover:opacity-90 transition"
+					>
+						Contact Me
+					</button>
+
 
 				</motion.div>
 
