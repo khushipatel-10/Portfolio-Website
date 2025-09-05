@@ -42,7 +42,7 @@ export default function HeroSection() {
 							const el = document.getElementById("contact");
 							el?.scrollIntoView({ behavior: "smooth" });
 						}}
-						className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
+						className="px-6 py-3 bg-gradient-to-r from-blue-500 via-purple-500 to-teal-500 text-white font-semibold rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
 					>
 						Contact Me
 					</button>
