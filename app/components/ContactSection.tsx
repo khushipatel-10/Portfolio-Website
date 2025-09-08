@@ -39,7 +39,7 @@ export default function ContactSection() {
 							Get in Touch
 						</a>
 						<a
-							href="https://drive.google.com/file/d/1hPMUQguqbxt6tbyxtAW66b0CE_Da3Y-A/view?usp=sharing"
+							href="https://drive.google.com/file/d/1HVkVOsZGNIz4Hcs2P420U-ZTnBn3jUsy/view?usp=sharing"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="px-8 py-3 bg-black border border-gray-800 rounded-lg font-medium hover:bg-gray-900 transition-colors inline-flex items-center justify-center gap-2"
