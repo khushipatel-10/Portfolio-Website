@@ -2,6 +2,8 @@ import './globals.css';
 import { Geist, Geist_Mono } from 'next/font/google';
 import BubblesBackground from './components/BubblesBackground';
 import Script from 'next/script'; // 👈 add this
+import SocialSidebar from './components/Sidebar';
+
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] });
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] });
@@ -20,6 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 				</Script>
 
 				<div className="relative z-10">{children}</div>
+				<SocialSidebar />
 				<BubblesBackground />
 			</body>
 		</html>

@@ -23,7 +23,7 @@ export default function HeroSection() {
 							I craft end-to-end solutions with 2+ years of experience building scalable applications and leading development teams.
 						</p>
 						<p className="text-base md:text-lg text-gray-400 max-w-2xl mx-auto">
-							Currently Lead Full Stack Developer at <span className="text-blue-400">Sketch Recognition Lab</span> at{' '}
+							Currently Graduate Assistant at the <span className="text-blue-400">Career Center </span> at{' '}
 							<span className="text-purple-400">Texas A&M</span>
 						</p>
 					</div>
@@ -36,8 +36,39 @@ export default function HeroSection() {
 						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-500/10 rounded-full text-teal-400 text-xs md:text-sm">Google Console</span>
 					</div>
 
+					{/* Contact Buttons */}
+					<div className="flex flex-col sm:flex-row justify-center gap-4">
+						<a
+							href="mailto:kp1032@tamu.edu"
+							className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg font-medium hover:opacity-90 transition-opacity inline-flex items-center justify-center gap-2"
+						>
+							<svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+								<path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+								<path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+							</svg>
+							Get in Touch
+						</a>
+						<a
+							href="https://drive.google.com/file/d/1Iz6P3GWgPF3IPAc8beC17TjAW4XMHCzP/view?usp=drive_link"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="px-8 py-3 bg-black border border-gray-800 rounded-lg font-medium hover:bg-gray-900 transition-colors inline-flex items-center justify-center gap-2"
+						>
+							<svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+								<path
+									fillRule="evenodd"
+									d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z"
+									clipRule="evenodd"
+								/>
+								<path fillRule="evenodd" d="M8 11a1 1 0 100 2h4a1 1 0 100-2H8zm0-4a1 1 0 100 2h4a1 1 0 100-2H8z" clipRule="evenodd" />
+							</svg>
+							View Resume
+						</a>
+
+					</div>
+
 					{/* Contact Button */}
-					<button
+					{/* <button
 						onClick={() => {
 							const el = document.getElementById("contact");
 							el?.scrollIntoView({ behavior: "smooth" });
@@ -45,7 +76,7 @@ export default function HeroSection() {
 						className="px-6 py-3 bg-gradient-to-r from-blue-500 via-purple-500 to-teal-500 text-white font-semibold rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
 					>
 						Contact Me
-					</button>
+					</button> */}
 
 
 

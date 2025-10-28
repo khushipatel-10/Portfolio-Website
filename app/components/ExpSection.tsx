@@ -11,6 +11,88 @@ export default function ExpSection() {
                 </motion.h2>
 
                 <div className="space-y-16">
+                    {/* Graduate Assistant - Career Center */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="bg-gray-900/50 rounded-xl overflow-hidden border border-gray-800"
+                    >
+                        <div className="p-8">
+                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                                <div className="space-y-6">
+                                    <div>
+                                        <h3 className="text-2xl font-bold mb-4">Graduate Assistant (Non-Teaching)</h3>
+                                        <h4 className="text-xl mb-4">Career Center, Texas A&M University</h4>
+                                        <p className="mb-2 text-m italic text-gray-400">Sep 2025 - Present</p>
+
+                                        <p className="text-gray-300">
+                                            Supported student career development through resume and LinkedIn reviews, interview preparation,
+                                            and networking strategy guidance to improve professional outcomes.
+                                        </p>
+                                    </div>
+
+                                    <div className="grid grid-cols-2 gap-6">
+                                        <div>
+                                            <h4 className="text-m font-semibold text-blue-400 mb-3">Core Responsibilities</h4>
+                                            <ul className="space-y-2 text-m text-gray-400">
+                                                <li>• Reviewed 800+ resumes and LinkedIn profiles</li>
+                                                <li>• Provided personalized feedback for career growth</li>
+                                                <li>• Guided students in networking and interview prep</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4 className="text-m font-semibold text-purple-400 mb-3">Impact</h4>
+                                            <ul className="space-y-2 text-m text-gray-400">
+                                                <li>• Strengthened employer and recruiter engagement</li>
+                                                <li>• Improved student placement and career confidence</li>
+                                                <li>• Enhanced university career resource visibility</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="bg-black/30 rounded-xl p-6">
+                                    <h4 className="text-m font-semibold text-gray-400 mb-4">Career Guidance Workflow</h4>
+                                    <div className="aspect-[4/3] bg-black/50 rounded-lg p-4">
+                                        <svg className="w-full h-full" viewBox="0 0 400 300">
+                                            <g>
+                                                <rect x="20" y="20" width="360" height="40" rx="4" className="fill-blue-500/20 stroke-blue-500" strokeWidth="1" />
+                                                <text x="200" y="45" textAnchor="middle" className="fill-gray-300 text-[12px]">
+                                                    Student Submits Resume / LinkedIn
+                                                </text>
+                                            </g>
+                                            <g>
+                                                <rect x="20" y="90" width="360" height="40" rx="4" className="fill-purple-500/20 stroke-purple-500" strokeWidth="1" />
+                                                <text x="200" y="115" textAnchor="middle" className="fill-gray-300 text-[12px]">
+                                                    Graduate Assistant Review + Feedback
+                                                </text>
+                                            </g>
+                                            <g>
+                                                <rect x="20" y="160" width="360" height="40" rx="4" className="fill-teal-500/20 stroke-teal-500" strokeWidth="1" />
+                                                <text x="200" y="185" textAnchor="middle" className="fill-gray-300 text-[12px]">
+                                                    Career Consultation / Strategy Session
+                                                </text>
+                                            </g>
+                                            <g>
+                                                <rect x="20" y="230" width="360" height="40" rx="4" className="fill-blue-500/20 stroke-blue-500" strokeWidth="1" />
+                                                <text x="200" y="255" textAnchor="middle" className="fill-gray-300 text-[12px]">
+                                                    Updated Profile + Improved Job Outcomes
+                                                </text>
+                                            </g>
+                                            <g className="stroke-gray-600" strokeWidth="1">
+                                                <line x1="200" y1="60" x2="200" y2="90" />
+                                                <line x1="200" y1="130" x2="200" y2="160" />
+                                                <line x1="200" y1="200" x2="200" y2="230" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </motion.div>
+
+
                     {/* FossilSketch Educational Platform */}
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}

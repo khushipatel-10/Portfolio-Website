@@ -39,3 +39,16 @@ body {
 .animate-bubbleMotion {
 	animation: bubbleMotion 0s linear infinite;
 }
+
+@keyframes teal-pulse {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(45, 212, 191, 0.4), 0 0 20px rgba(45, 212, 191, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(45, 212, 191, 0.8), 0 0 40px rgba(45, 212, 191, 0.4);
+  }
+}
+
+.glow-pulse {
+  animation: teal-pulse 3s infinite ease-in-out;
+}
