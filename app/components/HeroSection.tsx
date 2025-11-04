@@ -2,6 +2,8 @@
 
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import { TypeAnimation } from 'react-type-animation';
+
 
 export default function HeroSection() {
 	const [selectedStack, setSelectedStack] = useState<'frontend' | 'backend' | 'devops' | null>(null);
@@ -18,7 +20,30 @@ export default function HeroSection() {
 						<h1 className="mt-24 text-4xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-teal-500">
 							Khushi Patel
 						</h1>
-						<h2 className="text-2xl py-5 md:text-4xl font-bold text-white">Software Developer</h2>
+						{/* <h2 className="text-2xl py-5 md:text-4xl font-bold text-white">Software Developer</h2>*/}
+
+						<h2 className="text-2xl py-5 md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-400 to-cyan-400">
+							<TypeAnimation
+								sequence={[
+									'Software Developer',
+									2000,
+									'',
+									'Data Scientist',
+									2000,
+									'',
+									'AI/ML Enthusiast',
+									2000,
+									'',
+								]}
+								wrapper="span"
+								speed={50}
+								deletionSpeed={40}
+								repeat={Infinity}
+								cursor={true}
+							/>
+						</h2>
+
+
 						<p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">
 							I craft end-to-end solutions with 2+ years of experience building scalable applications and leading development teams.
 						</p>
@@ -28,13 +53,14 @@ export default function HeroSection() {
 						</p>
 					</div>
 					<div className="flex flex-wrap justify-center gap-2 py-3 md:gap-3 mb-6 md:mb-8">
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 rounded-full text-blue-400 text-xs md:text-sm">TypeScript</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/10 rounded-full text-purple-400 text-xs md:text-sm">React & Next.js</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-500/10 rounded-full text-teal-400 text-xs md:text-sm">Node.js</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 rounded-full text-blue-400 text-xs md:text-sm">Python</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/10 rounded-full text-purple-400 text-xs md:text-sm">SQL</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-500/10 rounded-full text-teal-400 text-xs md:text-sm">Google Console</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/20 rounded-full text-blue-300 text-xs md:text-sm font-bold">TypeScript</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/20 rounded-full text-purple-300 text-xs md:text-sm font-bold">React & Next.js</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-500/20 rounded-full text-teal-300 text-xs md:text-sm font-bold">Node.js</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/20 rounded-full text-blue-300 text-xs md:text-sm font-bold">Python</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/20 rounded-full text-purple-300 text-xs md:text-sm font-bold">SQL</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-500/20 rounded-full text-teal-300 text-xs md:text-sm font-bold">Google Cloud</span>
 					</div>
+
 
 					{/* Contact Buttons */}
 					<div className="flex flex-col sm:flex-row justify-center gap-4">
