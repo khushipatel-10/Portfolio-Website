@@ -75,7 +75,7 @@ export default function HeroSection() {
 							Get in Touch
 						</a>
 						<a
-							href="https://drive.google.com/file/d/1Y0XVEBx8mvoRfoXLQh66F82VqrDwZQkH/view?usp=drive_link"
+							href="https://drive.google.com/file/d/1qbY6kkiGUDCrBR8mT0WqNAFg-l_8IDpg/view?usp=sharing"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="px-8 py-3 bg-black border border-gray-800 rounded-lg font-medium hover:bg-gray-900 transition-colors inline-flex items-center justify-center gap-2"
