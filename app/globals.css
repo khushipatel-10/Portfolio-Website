@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background-color: #000;
 }
@@ -11,10 +15,12 @@ body {
 		transform: translateY(0) scale(1);
 		opacity: 0.6;
 	}
+
 	50% {
 		transform: translateY(-30px) scale(1.2);
 		opacity: 0.3;
 	}
+
 	100% {
 		transform: translateY(0) scale(1);
 		opacity: 0.6;
@@ -31,6 +37,7 @@ body {
 	0% {
 		transform: translateY(0px);
 	}
+
 	100% {
 		transform: translateY(-100vh);
 	}
@@ -41,14 +48,29 @@ body {
 }
 
 @keyframes teal-pulse {
-  0%, 100% {
-    box-shadow: 0 0 10px rgba(45, 212, 191, 0.4), 0 0 20px rgba(45, 212, 191, 0.2);
-  }
-  50% {
-    box-shadow: 0 0 20px rgba(45, 212, 191, 0.8), 0 0 40px rgba(45, 212, 191, 0.4);
-  }
+
+	0%,
+	100% {
+		box-shadow: 0 0 10px rgba(45, 212, 191, 0.4), 0 0 20px rgba(45, 212, 191, 0.2);
+	}
+
+	50% {
+		box-shadow: 0 0 20px rgba(45, 212, 191, 0.8), 0 0 40px rgba(45, 212, 191, 0.4);
+	}
 }
 
 .glow-pulse {
-  animation: teal-pulse 3s infinite ease-in-out;
+	animation: teal-pulse 3s infinite ease-in-out;
+}
+
+section {
+  scroll-margin-top: 80px; /* adjust if your navbar height changes */
+}
+.glow-pulse2 {
+  animation: yellow-pulse 3s infinite ease-in-out;
+  box-shadow: 0 0 15px rgba(255, 183, 15, 0.762);
+}
+
+.glow-text {
+  text-shadow: 0 0 8px rgba(96, 165, 250, 0.8), 0 0 16px rgba(59, 130, 246, 0.6);
 }

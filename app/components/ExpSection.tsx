@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function ExpSection() {
     return (
-        <section className="py-8 px-4">
+        <section id='experience' className="py-8 px-4">
             <div className="max-w-6xl mx-auto">
                 <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="text-3xl font-bold mb-16 text-center">
                     Experience

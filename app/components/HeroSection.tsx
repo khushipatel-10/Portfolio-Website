@@ -9,7 +9,7 @@ export default function HeroSection() {
 	const [selectedStack, setSelectedStack] = useState<'frontend' | 'backend' | 'devops' | null>(null);
 
 	return (
-		<section className="min-h-screen relative overflow-hidden py-24 md:py-0">
+		<section id='hero' className="min-h-screen relative overflow-hidden py-24 md:py-0">
 			<div className="absolute inset-0">
 				<div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10 " />
 			</div>
