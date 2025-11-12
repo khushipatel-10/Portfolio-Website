@@ -30,4 +30,4 @@ npm run dev
 
 ## 👋 About Me
 
-I'm a full stack developer with 2+ years of experience, currently working at Sketch Recognition Lab, Texas A&M. I build scalable, research-driven web applications with clean architecture and modern tools.
+I'm a full stack developer with 2+ years of experience. I aim to build scalable, research-driven web applications with clean architecture and modern tools.
