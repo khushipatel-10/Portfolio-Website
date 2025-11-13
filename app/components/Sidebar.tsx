@@ -11,7 +11,7 @@ export default function SocialSidebar() {
             </div>
 
             {/* Mobile Top Bar (sits above navbar) */}
-            <div className="fixed top-2 left-1/2 -translate-x-1/2 flex md:hidden justify-center gap-5 bg-black/40 p-3 rounded-2xl border border-teal-400/40 z-[60] glow-pulse">
+            <div className="absolute top-3 left-1/2 -translate-x-1/3 flex md:hidden justify-center gap-3 bg-black/40 p-2 rounded-xl border border-teal-400/40 z-[60] glow-pulse scale-70">
                 <SidebarIcons />
             </div>
         </>
