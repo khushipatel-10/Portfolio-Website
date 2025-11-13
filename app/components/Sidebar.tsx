@@ -6,12 +6,12 @@ export default function SocialSidebar() {
     return (
         <>
             {/* Desktop Sidebar */}
-            <div className="fixed right-6 top-1/2 -translate-y-1/2 hidden md:flex flex-col gap-7 bg-black/50 backdrop-blur-md p-3 rounded-2xl border border-gray-800 z-50 glow-pulse">
+            <div className="fixed right-6 top-1/2 -translate-y-1/2 hidden md:flex flex-col gap-10 bg-black/50 backdrop-blur-md p-3 rounded-2xl border border-gray-800 z-50 glow-pulse">
                 <SidebarIcons />
             </div>
 
             {/* Mobile Bottom Bar */}
-            <div className="fixed bottom-0 left-0 w-full flex justify-center items-center pb-4 pointer-events-none z-[9999]">
+            <div className="fixed bottom-0 left-0 w-full flex justify-center items-center pb-4 pointer-events-none z-[9999] md:hidden">
                 <div className="pointer-events-auto bg-black/50 backdrop-blur-lg border border-white/20 rounded-2xl px-6 py-3 flex items-center justify-around gap-6 shadow-lg w-[90%] max-w-sm glow-pulse">
                     <SidebarIcons />
                 </div>
