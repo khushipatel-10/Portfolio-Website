@@ -28,6 +28,7 @@ export default function Navbar() {
         scrolled ? 'bg-black/50 backdrop-blur-md' : 'bg-transparent'
       }`}
     >
+      
       <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-3">
         {/* Logo */}
         <Link href="#hero" className="flex items-center">
