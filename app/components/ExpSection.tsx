@@ -24,7 +24,7 @@ export default function ExpSection() {
                                     <div>
                                         <h3 className="text-2xl font-bold mb-4">Graduate Assistant (Non-Teaching)</h3>
                                         <h4 className="text-xl mb-4">Career Center, Texas A&M University</h4>
-                                        <p className="mb-2 text-m italic text-gray-400">Sep 2025 - Present</p>
+                                        <p className="mb-2 text-m italic text-gray-400">Sep 2025 - Jan 2026</p>
 
                                         <p className="text-gray-300">
                                             Supported student career development through resume and LinkedIn reviews, interview preparation,
