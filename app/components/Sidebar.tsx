@@ -25,7 +25,7 @@ function SidebarIcons() {
         <>
             {/* Resume */}
             <a
-                href="https://drive.google.com/file/d/1Iz6P3GWgPF3IPAc8beC17TjAW4XMHCzP/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1Vxv64ZCuco8sENnSlm3WGNTcZNjtxsBb/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-teal-300 hover:text-white transition-colors p-2 rounded-lg"
