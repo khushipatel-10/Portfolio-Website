@@ -43,9 +43,7 @@ export default function ProjectsSection() {
 									{p.title}
 								</h3>
 								<p className="text-sm text-gray-400 mt-1">{p.date}</p>
-								<p className="text-sm text-gray-300 mt-3">
-									{p.shortDescription}
-								</p>
+
 							</div>
 						</Link>
 					))}
