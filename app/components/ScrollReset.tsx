@@ -3,12 +3,11 @@
 import { useEffect } from 'react';
 
 export default function ScrollReset() {
-    useEffect(() => {
+  useEffect(() => {
+    if (performance.getEntriesByType('navigation')[0]?.type === 'reload') {
+      window.scrollTo(0, 0);
+    }
+  }, []);
 
-        window.history.replaceState(null, "", window.location.pathname);
-        // ensure page starts at top
-        window.scrollTo({ top: 0, behavior: "auto" });
-    }, []);
-
-    return null;
+  return null;
 }
