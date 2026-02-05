@@ -10,7 +10,11 @@ type Project = {
     github: string;
     description: string;
     bullets: string[];
+    intro: string;
+    works: string;
+    result: string;
 };
+
 
 export default function ProjectClient({ project }: { project: Project }) {
     const router = useRouter();
