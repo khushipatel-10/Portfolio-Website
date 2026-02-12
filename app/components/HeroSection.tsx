@@ -48,8 +48,8 @@ export default function HeroSection() {
 							I craft end-to-end solutions with 2+ years of experience building scalable applications and leading development teams.
 						</p>
 						<p className="text-base md:text-lg text-gray-400 max-w-2xl mx-auto">
-							Currently Graduate Assistant at the <span className="text-blue-400">Career Center </span> at{' '}
-							<span className="text-purple-400">Texas A&M</span>
+							Currently seeking<span className='text-blue-400'> May 2026 Full Time </span>
+							<span className="text-purple-400"> Software Engineer </span> roles 
 						</p>
 					</div>
 					<div className="flex flex-wrap justify-center gap-2 py-3 md:gap-3 mb-6 md:mb-8">
