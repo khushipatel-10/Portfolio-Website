@@ -7,6 +7,23 @@ import ProjectClient from './ProjectClient';
 
 
 const projects = {
+    'tidalense': {
+        title: 'Tidalense',
+        date: 'Nov 2025',
+        github: 'https://github.com/khushipatel-10/Tidalense',
+        devpost: 'https://devpost.com/software/tidalense?ref_content=my-projects-tab&ref_feature=my_projects',
+        youtube:'https://youtu.be/eHfgEvEioZA',
+        description:
+            'Built an AI-powered global water quality monitoring platform that combines real-time environmental data, computer vision, and predictive analytics to assess water safety at both global and individual scales.',
+        bullets: [
+            'Engineered a real-time global water monitoring dashboard using Mapbox and environmental APIs',
+            'Developed MicroScan AI using OpenCV and TensorFlow for instant water bottle analysis and contamination detection',
+            'Implemented a dynamic risk scoring engine combining geospatial data, historical trends, and AI inference'
+        ],
+        intro: 'Tidalense was created to bridge the gap between large-scale environmental monitoring and personal water safety verification. While global datasets track pollution, temperature shifts, and algae blooms, individuals often lack accessible tools to verify the safety of water at a personal level. This project aims to unify macro-level environmental intelligence with micro-level analysis, empowering users with actionable, AI-driven insights about water quality anywhere in the world.',
+        works: 'The platform integrates multiple environmental data sources through a FastAPI backend to aggregate pollution metrics, temperature data, and ecological indicators. On the frontend, a Next.js interface renders a high-performance interactive global map powered by Mapbox, allowing users to visualize live water conditions in real time. The MicroScan AI module leverages OpenCV and TensorFlow to analyze visual inputs from water containers, detecting anomalies, potential contaminants, and verifying brand authenticity through computer vision techniques. A centralized risk engine dynamically calculates safety scores by combining geographic data, historical environmental trends, and AI-based visual assessments. The system architecture separates concerns between data ingestion, processing, inference, and UI rendering to maintain scalability and performance.',
+        result: 'Tidalense delivers an end-to-end water intelligence platform capable of monitoring global water systems while also providing immediate personal safety verification. The application successfully demonstrates real-time data processing, AI inference, and scalable full-stack architecture within a unified system. By combining geospatial visualization, machine learning, and dynamic risk modeling, the project showcases the ability to design and implement a complex, production-ready environmental technology solution.'
+    },
     'figma-to-html': {
         title: 'Figma to HTML Converter',
         date: 'Nov 2025',

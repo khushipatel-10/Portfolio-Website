@@ -1,5 +1,11 @@
 export const projects = [
   {
+    slug: 'tidalense',
+    title: 'Tidalense',
+    date: 'Feb 2026',
+    thumbnail: '/thumbnails/tidalense.png'
+  },
+  {
     slug: 'figma-to-html',
     title: 'Figma to HTML Converter',
     date: 'Nov 2025',

@@ -8,6 +8,8 @@ type Project = {
     title: string;
     date: string;
     github: string;
+    devpost?: string;
+    youtube?: string;
     description: string;
     bullets: string[];
     intro: string;
@@ -21,6 +23,7 @@ export default function ProjectClient({ project }: { project: Project }) {
     return (
 
         <section className="pt-32 pb-16 px-4">
+
             <div className="max-w-6xl mx-auto bg-purple-500/5 border border-purple-500/30 rounded-xl p-8">
                 <h1 className="text-3xl font-bold text-purple-400 mb-2">
                     {project.title}
@@ -30,10 +33,41 @@ export default function ProjectClient({ project }: { project: Project }) {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="font-semibold mr-4 text-purple-300 hover:text-purple-100 hover:underline"
+                >
+                    GitHub
+                </a>
+
+                {project.devpost && (
+                    <a
+                        href={project.devpost}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-semibold text-purple-300 hover:text-purple-100 hover:underline mr-4"
+                    >
+                        Devpost
+                    </a>
+                )}
+
+                {project.youtube && (
+                    <a
+                        href={project.youtube}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-semibold text-purple-300 hover:text-purple-100 hover:underline"
+                    >
+                        YouTube Demo
+                    </a>
+                )}
+
+                {/* <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="mb-4 font-semibold text-purple-300 hover:text-purple-100 hover:underline"
                 >
                     View on GitHub
-                </a>
+                </a> */}
 
 
                 <p className="italic text-gray-400 mt-2 mb-4">{project.date}</p>
