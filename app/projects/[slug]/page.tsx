@@ -9,7 +9,7 @@ import ProjectClient from './ProjectClient';
 const projects = {
     'tidalense': {
         title: 'Tidalense',
-        date: 'Nov 2025',
+        date: 'Feb 2026',
         github: 'https://github.com/khushipatel-10/Tidalense',
         devpost: 'https://devpost.com/software/tidalense?ref_content=my-projects-tab&ref_feature=my_projects',
         youtube:'https://youtu.be/eHfgEvEioZA',
