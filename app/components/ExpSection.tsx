@@ -106,7 +106,7 @@ export default function ExpSection() {
                                     <div>
                                         <h3 className="text-2xl font-bold mb-4">Software Developer</h3>
                                         <h4 className="text-xl mb-4">Sketch Recognition Lab, Texas A&M</h4>
-                                        <p className='mb-2 text-m italic text-gray-400'>Apr 2025 - Present</p>
+                                        <p className='mb-2 text-m italic text-gray-400'>Apr 2025 - Sep 2025</p>
 
                                         <p className="text-gray-300">
                                             Interactive Paleontology Learning Platform powering research-led games, class-based modules, and student progress tracking for 10K+ learners.
