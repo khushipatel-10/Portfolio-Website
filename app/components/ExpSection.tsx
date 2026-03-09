@@ -118,7 +118,7 @@ export default function ExpSection() {
                                             <h4 className="text-m font-semibold text-blue-400 mb-3">Frontend Architecture</h4>
                                             <ul className="space-y-2 text-m text-gray-400">
                                                 <li>• Next.js + Mantine UI</li>
-                                                <li>• Role-based UI Rendering (Student/Instructor/Admin)</li>
+                                                <li>• Role-based UI Rendering</li>
                                                 <li>• Dynamic Module Ordering and Game Access</li>
                                                 <li>• PWA with Offline-first Features</li>
                                             </ul>
